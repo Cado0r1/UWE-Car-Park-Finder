@@ -1,6 +1,6 @@
 # TODO: Car Park Finder
 
-TODO: Brief outline of your project describing the dataset and a link to it.
+TODO: I have a dataset of carpark locations and parameters such as; Price, Spaces
 
 1. [Planning](docs/planning.md)
 2. [Requirements](docs/requirements.md)
