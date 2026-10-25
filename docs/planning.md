@@ -29,9 +29,27 @@ Google Maps: This is the most widely used competitor. Users can search, view and
 Just Park: Just Park is great and finding parking with clear filters but their focus is primarily on Reserved Parking and Rented Parking spots. For the purposes of exploring options and comparing information, my application is more well suited.
 
 ### Expected Risks
-TODO: What are the main risks of this project?
+
+#### 1. Dataset Limitations
+My dataset doesn't cover every single car park in Bristol and the dataset only has 51 records. Users could fail to find the perfect car park because of this.
+
+#### 2. Data Accuracy
+The information in the dataset could be wrong or outdated. Things like operation times and payment methods might be subject to change so the information needs to be up to date for users to make a desicion.
+
+#### 3. Dependency on the Dataset
+Since we don't own the data our whole application fails if the Dataset is moved or deleted. Both of which we have no control over.
+
+#### 4. Useability and Accesability
+The data needs to be in the same format for every car park for users to accurately and quickly compare them. Additionally application support for all sorts of devices and operating systems are needed as well as proper accessibility settings.
 
 ## Project Scope
-TODO: Scope of the System of Interest. Include a bullet list of things from your context diagram that are in scope.
+The Car Park Finder is an application that will allow users to filter through and search for car parks using the Open Data Bristol Car Park Dataset and display the information in a clear and accessible way.
+
+1. Get the data from the dataset
+2. Display the data in a clear and accesable way
+3. Allow users to search and filter car park results to their needs
+4. Provide users with filters such as: location, capacity, payment method and operating times
+5. Display only the car parks that are defined by the filters and searchbar
+6. Display the car parks in a way that can be easily compared
 
 ![Insert your Context Diagram Here](images/context.png)
