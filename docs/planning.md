@@ -52,4 +52,4 @@ The Car Park Finder is an application that will allow users to filter through an
 5. Display only the car parks that are defined by the filters and searchbar
 6. Display the car parks in a way that can be easily compared
 
-![Insert your Context Diagram Here](images/context.png)
+![Bristol Car Park Finder Context Diagram](../images/context.png)
