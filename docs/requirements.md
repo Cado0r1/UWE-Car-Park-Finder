@@ -3,26 +3,48 @@
 ## User Needs
 
 ### User stories
-TODO: Write brief user stories to explain how various actors would interact with the system to accomplish a goal.
-    Express these in the form from agile development:- As a (role) I want (goal) so that (benefit).
+-As a driver I want to search for car parks that are in a certain area
+-As a driver I want to know if a car park has free parking or not
+-As a driver I want to filter by capacity so I know there is likely to bew available parking spaces
+-As a drive I want to view operating times beforehand so I know the car park is right for my journey
+-As a driver I want to compare different car park information to find a suitable match
 
 ### Actors
-TODO: List and describe the actors/users for this product.
+User/Driver: The primary user that searches, filters and compares car parks
+Administrator: Someone who is reasonable for correctly managing the dataset data for my app
+Open Data Bristol: The provider for the data
 
 ### Use Cases
-TODO: Describe each use case (at least one per team member).
-    Give each use case a unique ID, e.g. UC1, UC2, ...
-    Summarise these using the use-case template below.
 
-| TODO: USE-CASE ID e.g. UC1, UC2, ... | TODO: USE-CASE NAME | 
+| UC1 | Search and Filter Car Parks | 
 | -------------------------------------- | ------------------- |
-| **Description** | TODO: Goal to be achieved by use case and sources for requirement |
-| **Actors** | TODO: List of actors involved in use case |
-| **Assumptions** | TODO: Pre/post-conditions if any</td></tr>
-| **Steps** | TODO: Interactions between actors and system necessary to achieve goal |
-| **Variations** | TODO: OPTIONAL - Any variations in the steps of a use case |
-| **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
-| **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
+| **Description** | Allows users to appropriately find a suitable car park based on their requirements |
+| **Actors** | User/Driver |
+| **Assumptions** | The dataset has been appropriately managed and is working |
+| **Steps** | The user opens the application. The system displays the list of car parks. The user searches a car park or uses the various different filters to narrow down the results. The system handles the search and or filter queries. The system displays suitable car parks appropriate for the queries.|
+| **Variations** | If no car parks are found the system displays a message notifying the user that no car parks have been found. |
+| **Non-functional** | The filters and search bar should be easy to use and navigate. |
+| **Issues** | The completeness and maintenance of the data relies entirely on Open Data Bristol |
+
+| UC2 | View Car Parks | 
+| -------------------------------------- | ------------------- |
+| **Description** | Allows users to view different car park information in order to find a suitable match |
+| **Actors** | User/Driver |
+| **Assumptions** | The dataset has been appropriately managed and is working |
+| **Steps** | The user opens the application. The system displays the list of car parks. The user selects a car park. The system displays the car park details such as; Operating Times, Capacity, Location.|
+| **Variations** | If information is lacking for a certain car park it will replace the information with a quick defaulted note saying the information is not available. |
+| **Non-functional** | The car park information should be clearly laid out and easy to read and navigate. |
+| **Issues** | The completeness and maintenance of the data relies entirely on Open Data Bristol |
+
+| UC3 | Compare Car Parks | 
+| -------------------------------------- | ------------------- |
+| **Description** | Allows users to compare different car park information in order to find a suitable match |
+| **Actors** | User/Driver |
+| **Assumptions** | The dataset has been appropriately managed and is working |
+| **Steps** | The user opens the application. The system displays the list of car parks. The user can filter down results or just look at the list. The user can quickly compare car parks with easy to read columns with information such as; Operating Times, Capacity, Location.|
+| **Variations** | If information is lacking for a certain car park it will replace the information with a quick defaulted note saying the information is not available. |
+| **Non-functional** | The car park information should be clearly laid out and easy to read and navigate. |
+| **Issues** | The completeness and maintenance of the data relies entirely on Open Data Bristol |
 
 
 TODO: Your Use-Case diagram should include all use-cases.
