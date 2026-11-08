@@ -8,19 +8,19 @@ Finding parking in Bristol can be a common issue. People might need to consult m
 ### Business benefits
 
 #### 1. Time Saving
-Using practical and useful filters on my application eliminates the time users spend searching for information from different sources
+Using practical and useful filters will reduce the time users spend looking through different sources to find the needed parking information. Instead of users manually looking through external websites or the dataset itself, users will be able to quickly search for results for their specific requirements and my application will sort the information for them.
 
 #### 2. Easier Comparison
-My application will present the users actual viable results from their filters that you can easily compare practical information such as; Location, Capacity, Operating Times and if they are paid or not.
+My application will present the users results that match their selected filters. They can then compare the provided information in easy to read columns displaying things such as: Location, Capacity, Operating Times, Type of Payment. Having the information displayed in this format allows consistent easy comparison quickly.
 
 #### 3. Centralised Information
-My application pools all of the data straight from Open Data's Bristol Car Parks dataset and presents it in a useful way. This will allow users to have quick access to it without scrolling through the dataset itself.
+My application pools all of the data straight from Open Data's Bristol Car Parks dataset and presents it in a useful way. This will allow users to have quick access to it without scrolling through, interpreting and navigating the raw dataset themselves.
 
 #### 4. Imporved Used Experience
-I realised that the functionality of my proposal is only as good as the way the information is laid out. I will prioritise quick filters, clear displayed rows and text so users can quickly compare and also accessibility features.
+I realised that the functionality of my proposal is only as good as the way the information is laid out. I will prioritise quick filters, clearly displayed results so users can find what they need efficiently. I will also consider Accessibility such as; Text Size, Clear Labels, Colour Contrast, Ect.
 
 #### 5. Potential Future Development
-My app is only as big as the dataset allows, this means it is easily scalable for future developments. If they add more records or update it, it will directly improve the app. Additionally if you ever wanted to scale it outside of Bristol it is quite easy to do.
+My app is only as big as the dataset allows, this means it is easily scalable for future developments. If they add more records or update it, it will directly improve the app. Additional features could include displaying location on an interactive map and google map integration directly.
 
 
 ### Options Considered
